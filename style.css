@@ -2,12 +2,17 @@ body {
     background-color: rgb(245, 245, 236);
 }
 
+.logo {
+    text-align: center;
+}
+
 #logo {
     color: rgb(172, 181, 175);
     font-family: monospace;
-    text-align: center;
+    display: inline-block;
     font-size: 22px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header {
@@ -15,11 +20,13 @@ body {
     font-family: monospace;
     font-weight: lighter;
     font-size: 30px;
+    text-align: center;
 }
 
 .header.subheader {
     color: rgb(177, 188, 190);
     font-size: 24px;
+    text-align: left;
 }
 
 .text {
@@ -27,9 +34,33 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.recipes {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .icon {
-    border: 10px solid black;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.icon img {
+    border: 10px solid rgb(28, 28, 28);
     height: 350px;
     width: auto;
     border-radius: 5px;
+}
+
+.icon img:hover {
+    border: 10px dotted rgb(28, 28, 28);
+}
+
+img {
+    border: 10px dotted rgb(235, 217, 209);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
