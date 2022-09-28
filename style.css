@@ -26,3 +26,10 @@ body {
     color: rgb(114, 111, 100);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.icon {
+    border: 10px solid black;
+    height: 350px;
+    width: auto;
+    border-radius: 5px;
+}
