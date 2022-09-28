@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(245, 245, 236);
+}
+
+#logo {
+    color: rgb(172, 181, 175);
+    font-family: monospace;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header {
+    color: rgb(146, 156, 158);
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.header.subheader {
+    color: rgb(177, 188, 190);
+    font-size: 24px;
+}
+
+.text {
+    color: rgb(114, 111, 100);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
