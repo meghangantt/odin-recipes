@@ -13,6 +13,12 @@ body {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
+    padding: 10px;
+}
+
+#logo:hover {
+    border: 10px dotted rgb(235, 217, 209);
+    padding: 0px;
 }
 
 .header {
@@ -30,7 +36,7 @@ body {
 }
 
 .text {
-    color: rgb(114, 111, 100);
+    color: rgb(111, 110, 105);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -48,19 +54,27 @@ body {
 }
 
 .icon img {
-    border: 10px solid rgb(28, 28, 28);
     height: 350px;
     width: auto;
     border-radius: 5px;
 }
 
-.icon img:hover {
-    border: 10px dotted rgb(28, 28, 28);
+.index.icon img {
+    border: 10px solid rgb(235, 217, 209);
 }
 
-img {
+.index.icon img:hover {
+    border: 10px dotted rgb(172, 181, 175);
+}
+
+.recipe.icon img {
     border: 10px dotted rgb(235, 217, 209);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 270px;
+    height: auto;
 }
+
+
+
