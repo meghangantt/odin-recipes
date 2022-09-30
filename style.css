@@ -8,9 +8,7 @@ body {
 }
 
 #logo {
-    color: rgba(109, 120, 113, 0.661);
-    background-color: rgba(251, 248, 246, 0.507);
-    border-radius: 5%;
+    color: rgb(109, 120, 113);
     display: inline-block;
     font-size: 22px;
     font-weight: bold;
